@@ -59,7 +59,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'djangosignin.wsgi.application'
 
-
+CSRF_TRUSTED_ORIGINS=['http://localhost:8000']
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
